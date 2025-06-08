@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm6 2H6a4 4 0 0 0-4 4v2h24v-2a4 4 0 0 0-4-4z"/>
+</svg> 
+
+Explicação: Função e Elementos:
+
+<svg>: Elemento raiz que define o espaço para gráficos vetoriais
+
+xmlns: Namespace XML para SVG (obrigatório)
+
+viewBox="0 0 24 24": Define:
+
+0 0: Ponto inicial (canto superior esquerdo)
+
+24 24: Área de 24x24 unidades (tamanho proporcional)
+
+<path>: Define a forma do ícone através de comandos vetoriais
+
+d: Atributo que contém os comandos de desenho:
+
+M12 12: Move para a posição (12,12)
+
+a5 5 0 1 0 0-10: Desenha um arco (círculo) com:
+
+Raio X: 5, Raio Y: 5
+
+Ângulo de rotação: 0°
+
+Flag de arco grande: 1 (verdadeiro)
+
+Flag de direção: 0 (sentido anti-horário)
+
+Deslocamento: 0 no eixo X, -10 no eixo Y
+
+zm6 2:
+
+z: Fecha o caminho anterior
+
+m6 2: Move relativo (+6X, +2Y)
+
+H6: Linha horizontal até X=6
+
+a4 4 0 0 0-4 4: Segundo arco com raio 4x4
+
+v2: Linha vertical +2Y
+
+h24: Linha horizontal +24X
+
+v-2: Linha vertical -2Y
+
+a4 4 0 0 0-4-4: Terceiro arco
+
+z: Fecha o caminho
+
+Resultado Visual:
+Cria um ícone de usuário estilizado com:
+
+Cabeça (círculo superior)
+
+Corpo (retângulo inferior)
+
+Formato de "silhueta humana" minimalista
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <path d="M16 17v-3h-5v-2h5V7l5 5-5 5zM14 2a2 2 0 0 1 2 2v2h-2V4H4v16h10v-2h2v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h10z"/>
+</svg> 
+Explicação: 
+Função e Elementos:
+
+Primeira parte do caminho (M16...z):
+
+M16 17: Move para (16,17)
+
+v-3: Linha vertical -3Y
+
+h-5: Linha horizontal -5X
+
+v-2: Linha vertical -2Y
+
+h5: Linha horizontal +5X
+
+V7: Linha vertical até Y=7
+
+l5 5: Linha para (5X,+5Y)
+
+-5 5: Linha para (-5X,+5Y)
+
+z: Fecha o caminho (forma uma seta)
+
+Segunda parte do caminho (M14...z):
+
+M14 2: Move para (14,2)
+
+a2 2...v2: Define um retângulo com porta
+
+H4...h10: Desenha o contorno da porta
+
+v-2...z: Completa o formato da porta
+
+Resultado Visual:
+Cria um ícone de logout composto por:
+
+Seta apontando para a direita (símbolo de saída)
+
+Porta/portal (representando a saída de um ambiente)
+
+Conjunto forma uma metáfora visual de "sair de um lugar"
+
